@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gavlar50.Umbraco.MediaTracker", "Gavlar50.Umbraco.MediaTracker\Gavlar50.Umbraco.MediaTracker.csproj", "{5D11B7C8-7DC2-4939-891D-E538612BF460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gavlar50.Umbraco.MediaTracker.Reports", "Gavlar50.Umbraco.MediaTracker.Reports\Gavlar50.Umbraco.MediaTracker.Reports.csproj", "{408248FD-889F-432D-A43F-654D29C38C68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{74366D11-4460-44C3-B801-3EC83D09782A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{BD3700C3-2AA0-4652-A3C0-F83647CE6636}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\businesslogic.dll = Libraries\businesslogic.dll
+		Libraries\businesslogic.xml = Libraries\businesslogic.xml
+		Libraries\cms.dll = Libraries\cms.dll
+		Libraries\cms.xml = Libraries\cms.xml
+		Libraries\controls.dll = Libraries\controls.dll
+		Libraries\controls.xml = Libraries\controls.xml
+		Libraries\interfaces.dll = Libraries\interfaces.dll
+		Libraries\interfaces.xml = Libraries\interfaces.xml
+		Libraries\log4net.dll = Libraries\log4net.dll
+		Libraries\Microsoft.ApplicationBlocks.Data.dll = Libraries\Microsoft.ApplicationBlocks.Data.dll
+		Libraries\Newtonsoft.Json.dll = Libraries\Newtonsoft.Json.dll
+		Libraries\PackageActionsContrib.dll = Libraries\PackageActionsContrib.dll
+		Libraries\System.Data.SqlServerCe.dll = Libraries\System.Data.SqlServerCe.dll
+		Libraries\System.Net.Http.dll = Libraries\System.Net.Http.dll
+		Libraries\System.Net.Http.Formatting.dll = Libraries\System.Net.Http.Formatting.dll
+		Libraries\System.Net.Http.Formatting.xml = Libraries\System.Net.Http.Formatting.xml
+		Libraries\System.Net.Http.xml = Libraries\System.Net.Http.xml
+		Libraries\System.Web.Http.dll = Libraries\System.Web.Http.dll
+		Libraries\System.Web.Http.WebHost.dll = Libraries\System.Web.Http.WebHost.dll
+		Libraries\System.Web.Http.WebHost.xml = Libraries\System.Web.Http.WebHost.xml
+		Libraries\System.Web.Http.xml = Libraries\System.Web.Http.xml
+		Libraries\System.Web.Mvc.dll = Libraries\System.Web.Mvc.dll
+		Libraries\TidyNet.dll = Libraries\TidyNet.dll
+		Libraries\Umbraco.Core.dll = Libraries\Umbraco.Core.dll
+		Libraries\Umbraco.Core.xml = Libraries\Umbraco.Core.xml
+		Libraries\umbraco.DataLayer.dll = Libraries\umbraco.DataLayer.dll
+		Libraries\umbraco.DataLayer.xml = Libraries\umbraco.DataLayer.xml
+		Libraries\umbraco.dll = Libraries\umbraco.dll
+		Libraries\umbraco.providers.dll = Libraries\umbraco.providers.dll
+		Libraries\umbraco.providers.xml = Libraries\umbraco.providers.xml
+		Libraries\umbraco.xml = Libraries\umbraco.xml
+		Libraries\umbraco.XmlSerializers.dll = Libraries\umbraco.XmlSerializers.dll
+		Libraries\UmbracoExamine.dll = Libraries\UmbracoExamine.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D11B7C8-7DC2-4939-891D-E538612BF460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D11B7C8-7DC2-4939-891D-E538612BF460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D11B7C8-7DC2-4939-891D-E538612BF460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D11B7C8-7DC2-4939-891D-E538612BF460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{408248FD-889F-432D-A43F-654D29C38C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408248FD-889F-432D-A43F-654D29C38C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408248FD-889F-432D-A43F-654D29C38C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408248FD-889F-432D-A43F-654D29C38C68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD3700C3-2AA0-4652-A3C0-F83647CE6636} = {74366D11-4460-44C3-B801-3EC83D09782A}
+	EndGlobalSection
+EndGlobal
